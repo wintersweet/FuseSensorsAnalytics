@@ -1,0 +1,6 @@
+framework module FuseSensorsAnalytics {
+  umbrella header "FuseSensorsAnalytics-umbrella.h"
+
+  export *
+  module * { export * }
+}
