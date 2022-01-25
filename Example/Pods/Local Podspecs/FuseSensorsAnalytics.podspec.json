@@ -1,6 +1,6 @@
 {
   "name": "FuseSensorsAnalytics",
-  "version": "0.1.0",
+  "version": "1.0.2",
   "summary": "A short description of FuseSensorsAnalytics.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/wintersweet/FuseSensorsAnalytics",
@@ -13,12 +13,21 @@
   },
   "source": {
     "git": "https://github.com/wintersweet/FuseSensorsAnalytics.git",
-    "tag": "0.1.0"
+    "tag": "1.0.2"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "FuseSensorsAnalytics/Classes/**/*",
+  "default_subspecs": "Core",
+  "frameworks": [
+    "Foundation",
+    "SystemConfiguration"
+  ],
+  "libraries": [
+    "icucore",
+    "sqlite3",
+    "z"
+  ],
   "dependencies": {
     "XMNetworking": [
 
@@ -26,5 +35,193 @@
     "SSZipArchive": [
 
     ]
-  }
+  },
+  "subspecs": [
+    {
+      "name": "Base",
+      "source_files": "FuseSensorsAnalytics/Core/**/*.{h,m}",
+      "exclude_files": [
+        "FuseSensorsAnalytics/Core/SAAlertController.h",
+        "FuseSensorsAnalytics/Core/SAAlertController.m"
+      ],
+      "public_header_files": [
+        "FuseSensorsAnalytics/Core/SensorsAnalyticsSDK.h",
+        "FuseSensorsAnalytics/Core/SensorsAnalyticsSDK+Public.h",
+        "FuseSensorsAnalytics/Core/SAAppExtensionDataManager.h",
+        "FuseSensorsAnalytics/Core/SASecurityPolicy.h",
+        "FuseSensorsAnalytics/Core/SAConfigOptions.h",
+        "FuseSensorsAnalytics/Core/SAConstants.h"
+      ],
+      "ios": {
+        "resources": "FuseSensorsAnalytics/SensorsAnalyticsSDK.bundle",
+        "frameworks": "CoreTelephony"
+      }
+    },
+    {
+      "name": "Extension",
+      "dependencies": {
+        "FuseSensorsAnalytics/Base": [
+
+        ]
+      }
+    },
+    {
+      "name": "Common",
+      "dependencies": {
+        "FuseSensorsAnalytics/Extension": [
+
+        ]
+      },
+      "public_header_files": "FuseSensorsAnalytics/JSBridge/SensorsAnalyticsSDK+JavaScriptBridge.h",
+      "source_files": [
+        "FuseSensorsAnalytics/Core/SAAlertController.{h,m}",
+        "SensorsAnalyticsSDK/JSBridge/**/*.{h,m}"
+      ],
+      "ios": {
+        "source_files": [
+          "FuseSensorsAnalytics/RemoteConfig/**/*.{h,m}",
+          "FuseSensorsAnalytics/ChannelMatch/**/*.{h,m}",
+          "FuseSensorsAnalytics/Encrypt/**/*.{h,m}",
+          "FuseSensorsAnalytics/Deeplink/**/*.{h,m}",
+          "FuseSensorsAnalytics/DebugMode/**/*.{h,m}",
+          "FuseSensorsAnalytics/Core/SAAlertController.h"
+        ],
+        "public_header_files": [
+          "FuseSensorsAnalytics/{Encrypt,RemoteConfig,ChannelMatch,Deeplink,DebugMode}/{SAConfigOptions,SensorsAnalyticsSDK}+*.h",
+          "FuseSensorsAnalytics/Encrypt/SAEncryptProtocol.h",
+          "FuseSensorsAnalytics/Encrypt/SASecretKey.h"
+        ]
+      }
+    },
+    {
+      "name": "Core",
+      "ios": {
+        "dependencies": {
+          "FuseSensorsAnalytics/Visualized": [
+
+          ]
+        }
+      },
+      "osx": {
+        "dependencies": {
+          "FuseSensorsAnalytics/Common": [
+
+          ]
+        }
+      }
+    },
+    {
+      "name": "CAID",
+      "platforms": {
+        "ios": "9.0"
+      },
+      "dependencies": {
+        "FuseSensorsAnalytics/Core": [
+
+        ]
+      },
+      "source_files": "FuseSensorsAnalytics/CAID/**/*.{h,m}",
+      "private_header_files": "FuseSensorsAnalytics/CAID/**/*.h"
+    },
+    {
+      "name": "AutoTrack",
+      "platforms": {
+        "ios": "9.0"
+      },
+      "dependencies": {
+        "FuseSensorsAnalytics/Common": [
+
+        ]
+      },
+      "source_files": "FuseSensorsAnalytics/AutoTrack/**/*.{h,m}",
+      "public_header_files": [
+        "FuseSensorsAnalytics/AutoTrack/SensorsAnalyticsSDK+SAAutoTrack.h",
+        "FuseSensorsAnalytics/AutoTrack/SAConfigOptions+AutoTrack.h"
+      ],
+      "frameworks": "UIKit"
+    },
+    {
+      "name": "Visualized",
+      "platforms": {
+        "ios": "9.0"
+      },
+      "dependencies": {
+        "FuseSensorsAnalytics/AutoTrack": [
+
+        ]
+      },
+      "source_files": "FuseSensorsAnalytics/Visualized/**/*.{h,m}",
+      "public_header_files": [
+        "FuseSensorsAnalytics/Visualized/SensorsAnalyticsSDK+Visualized.h",
+        "FuseSensorsAnalytics/Visualized/SAConfigOptions+Visualized.h"
+      ]
+    },
+    {
+      "name": "Location",
+      "platforms": {
+        "ios": "9.0"
+      },
+      "frameworks": "CoreLocation",
+      "dependencies": {
+        "FuseSensorsAnalytics/Core": [
+
+        ]
+      },
+      "source_files": "FuseSensorsAnalytics/Location/**/*.{h,m}",
+      "public_header_files": "FuseSensorsAnalytics/Location/SensorsAnalyticsSDK+Location.h"
+    },
+    {
+      "name": "DeviceOrientation",
+      "platforms": {
+        "ios": "9.0"
+      },
+      "dependencies": {
+        "FuseSensorsAnalytics/Core": [
+
+        ]
+      },
+      "source_files": "FuseSensorsAnalytics/DeviceOrientation/**/*.{h,m}",
+      "public_header_files": "FuseSensorsAnalytics/DeviceOrientation/SensorsAnalyticsSDK+DeviceOrientation.h",
+      "frameworks": "CoreMotion"
+    },
+    {
+      "name": "AppPush",
+      "platforms": {
+        "ios": "9.0"
+      },
+      "dependencies": {
+        "FuseSensorsAnalytics/Core": [
+
+        ]
+      },
+      "source_files": "FuseSensorsAnalytics/AppPush/**/*.{h,m}",
+      "public_header_files": "FuseSensorsAnalytics/AppPush/SAConfigOptions+AppPush.h"
+    },
+    {
+      "name": "Exception",
+      "platforms": {
+        "ios": "9.0"
+      },
+      "dependencies": {
+        "FuseSensorsAnalytics/Common": [
+
+        ]
+      },
+      "source_files": "FuseSensorsAnalytics/Exception/**/*.{h,m}",
+      "public_header_files": "FuseSensorsAnalytics/Exception/SAConfigOptions+Exception.h"
+    },
+    {
+      "name": "WKWebView",
+      "platforms": {
+        "ios": "9.0"
+      },
+      "dependencies": {
+        "FuseSensorsAnalytics/Core": [
+
+        ]
+      },
+      "source_files": "FuseSensorsAnalytics/WKWebView/**/*.{h,m}",
+      "public_header_files": "FuseSensorsAnalytics/WKWebView/SensorsAnalyticsSDK+WKWebView.h"
+    }
+  ]
 }

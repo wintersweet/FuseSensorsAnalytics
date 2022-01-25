@@ -14,7 +14,31 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
-  - FuseSensorsAnalytics (0.1.0):
+  - FuseSensorsAnalytics (1.0.2):
+    - FuseSensorsAnalytics/Core (= 1.0.2)
+    - SSZipArchive
+    - XMNetworking
+  - FuseSensorsAnalytics/AutoTrack (1.0.2):
+    - FuseSensorsAnalytics/Common
+    - SSZipArchive
+    - XMNetworking
+  - FuseSensorsAnalytics/Base (1.0.2):
+    - SSZipArchive
+    - XMNetworking
+  - FuseSensorsAnalytics/Common (1.0.2):
+    - FuseSensorsAnalytics/Extension
+    - SSZipArchive
+    - XMNetworking
+  - FuseSensorsAnalytics/Core (1.0.2):
+    - FuseSensorsAnalytics/Visualized
+    - SSZipArchive
+    - XMNetworking
+  - FuseSensorsAnalytics/Extension (1.0.2):
+    - FuseSensorsAnalytics/Base
+    - SSZipArchive
+    - XMNetworking
+  - FuseSensorsAnalytics/Visualized (1.0.2):
+    - FuseSensorsAnalytics/AutoTrack
     - SSZipArchive
     - XMNetworking
   - SSZipArchive (2.4.2)
@@ -36,7 +60,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
-  FuseSensorsAnalytics: 756f8cc73ca18d8b3d6b05e443fba8f45a35f278
+  FuseSensorsAnalytics: 72428c57781b53facaf7ace67e30d087058d71b9
   SSZipArchive: e7b4f3d9e780c2acc1764cd88fbf2de28f26e5b2
   XMNetworking: 7160cc06f504f325eec515a1e687ee1aa89bc462
 
