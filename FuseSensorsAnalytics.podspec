@@ -30,9 +30,9 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
   s.source_files = 'FuseSensorsAnalytics/Classes/**/*'
-  s.resource_bundles = {
-    'FuseSensorsAnalytics' => ['FuseSensorsAnalytics/Classes/SensorsAnalyticsSDK/*.bundle']
-   }
+#  s.resource_bundles = {
+#    'FuseSensorsAnalytics' => ['FuseSensorsAnalytics/Classes/SensorsAnalyticsSDK/*.bundle']
+#   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
