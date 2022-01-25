@@ -50,7 +50,7 @@ TODO: Add long description of the pod here.
   s.subspec 'Common' do |c|
     c.dependency 'FuseSensorsAnalytics/Extension'
     c.public_header_files = 'FuseSensorsAnalytics/JSBridge/SensorsAnalyticsSDK+JavaScriptBridge.h'
-    c.source_files = 'FuseSensorsAnalytics/Core/SAAlertController.{h,m}', 'SensorsAnalyticsSDK/JSBridge/**/*.{h,m}'
+    c.source_files = 'FuseSensorsAnalytics/Core/SAAlertController.{h,m}', 'FuseSensorsAnalytics/JSBridge/**/*.{h,m}'
     c.ios.source_files = 'FuseSensorsAnalytics/RemoteConfig/**/*.{h,m}', 'FuseSensorsAnalytics/ChannelMatch/**/*.{h,m}', 'FuseSensorsAnalytics/Encrypt/**/*.{h,m}', 'FuseSensorsAnalytics/Deeplink/**/*.{h,m}', 'FuseSensorsAnalytics/DebugMode/**/*.{h,m}', 'FuseSensorsAnalytics/Core/SAAlertController.h'
     c.ios.public_header_files = 'FuseSensorsAnalytics/{Encrypt,RemoteConfig,ChannelMatch,Deeplink,DebugMode}/{SAConfigOptions,SensorsAnalyticsSDK}+*.h', 'FuseSensorsAnalytics/Encrypt/SAEncryptProtocol.h', 'FuseSensorsAnalytics/Encrypt/SASecretKey.h'
   end
