@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FuseSensorsAnalytics'
-  s.version          = '1.0.2'
+  s.version          = '1.0.3'
   s.summary          = 'A short description of FuseSensorsAnalytics.'
 
 # This description is used to generate tags and improve search results.
@@ -48,11 +48,11 @@ TODO: Add long description of the pod here.
    end
 
   s.subspec 'Common' do |c|
-    c.dependency 'SensorsAnalyticsSDK/Extension'
-    c.public_header_files = 'SensorsAnalyticsSDK/JSBridge/SensorsAnalyticsSDK+JavaScriptBridge.h'
-    c.source_files = 'SensorsAnalyticsSDK/Core/SAAlertController.{h,m}', 'SensorsAnalyticsSDK/JSBridge/**/*.{h,m}'
-    c.ios.source_files = 'SensorsAnalyticsSDK/RemoteConfig/**/*.{h,m}', 'SensorsAnalyticsSDK/ChannelMatch/**/*.{h,m}', 'SensorsAnalyticsSDK/Encrypt/**/*.{h,m}', 'SensorsAnalyticsSDK/Deeplink/**/*.{h,m}', 'SensorsAnalyticsSDK/DebugMode/**/*.{h,m}', 'SensorsAnalyticsSDK/Core/SAAlertController.h'
-    c.ios.public_header_files = 'SensorsAnalyticsSDK/{Encrypt,RemoteConfig,ChannelMatch,Deeplink,DebugMode}/{SAConfigOptions,SensorsAnalyticsSDK}+*.h', 'SensorsAnalyticsSDK/Encrypt/SAEncryptProtocol.h', 'SensorsAnalyticsSDK/Encrypt/SASecretKey.h'
+    c.dependency 'FuseSensorsAnalytics/Extension'
+    c.public_header_files = 'FuseSensorsAnalytics/JSBridge/SensorsAnalyticsSDK+JavaScriptBridge.h'
+    c.source_files = 'FuseSensorsAnalytics/Core/SAAlertController.{h,m}', 'SensorsAnalyticsSDK/JSBridge/**/*.{h,m}'
+    c.ios.source_files = 'FuseSensorsAnalytics/RemoteConfig/**/*.{h,m}', 'FuseSensorsAnalytics/ChannelMatch/**/*.{h,m}', 'FuseSensorsAnalytics/Encrypt/**/*.{h,m}', 'FuseSensorsAnalytics/Deeplink/**/*.{h,m}', 'FuseSensorsAnalytics/DebugMode/**/*.{h,m}', 'FuseSensorsAnalytics/Core/SAAlertController.h'
+    c.ios.public_header_files = 'FuseSensorsAnalytics/{Encrypt,RemoteConfig,ChannelMatch,Deeplink,DebugMode}/{SAConfigOptions,SensorsAnalyticsSDK}+*.h', 'FuseSensorsAnalytics/Encrypt/SAEncryptProtocol.h', 'FuseSensorsAnalytics/Encrypt/SASecretKey.h'
   end
    
    s.subspec 'Core' do |c|
