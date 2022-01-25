@@ -10,6 +10,8 @@
 #import "SAPresetProperty.h"
 #import "SAReferrerManager.h"
 #import "SensorsAnalyticsSDK.h"
+#import <SAArchived.h>
+#import <XMNetworking/XMNetworking.h>
 @interface SAObjectWrapper ()
 
 @property (nonatomic, strong) SAPresetProperty *presetProperty;

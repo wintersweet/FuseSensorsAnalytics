@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FuseSensorsAnalytics'
-  s.version          = '1.0.3'
+  s.version          = '1.0.4'
   s.summary          = 'A short description of FuseSensorsAnalytics.'
 
 # This description is used to generate tags and improve search results.
@@ -34,7 +34,7 @@ TODO: Add long description of the pod here.
   
   s.libraries = 'icucore', 'sqlite3', 'z'
 
-   s.subspec 'Base' do |b|
+  s.subspec 'Base' do |b|
      core_dir = "FuseSensorsAnalytics/Core/"
      b.source_files = core_dir + "**/*.{h,m}"
      b.exclude_files = core_dir + "SAAlertController.h", core_dir + "SAAlertController.m"
@@ -43,7 +43,7 @@ TODO: Add long description of the pod here.
      b.ios.frameworks = 'CoreTelephony'
    end
 
-   s.subspec 'Extension' do |e|
+  s.subspec 'Extension' do |e|
      e.dependency 'FuseSensorsAnalytics/Base'
    end
 

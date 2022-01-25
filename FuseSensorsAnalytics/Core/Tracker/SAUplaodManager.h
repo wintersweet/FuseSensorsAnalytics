@@ -6,7 +6,6 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <XMNetworking/XMNetworking.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

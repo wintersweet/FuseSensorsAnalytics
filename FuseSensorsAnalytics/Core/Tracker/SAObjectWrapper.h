@@ -7,8 +7,6 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <SAArchived.h>
-#import <XMNetworking/XMNetworking.h>
 NS_ASSUME_NONNULL_BEGIN
 
 @interface SAObjectWrapper : NSObject

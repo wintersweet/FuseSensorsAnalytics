@@ -6,8 +6,9 @@
 //
 
 #import "SAUplaodManager.h"
-#import "SAArchived.h"
-#import "AFNetworking.h"
+#import <SAArchived.h>
+#import <AFNetworking/AFNetworking.h>
+#import <XMNetworking/XMNetworking.h>
 
 
 #if ENV_PRODUCTION
