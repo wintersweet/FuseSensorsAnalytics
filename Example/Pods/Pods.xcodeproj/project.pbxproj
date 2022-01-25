@@ -547,7 +547,7 @@
 		1E9CDDEABD8E7781E08E0CA211377C43 /* SASecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SASecurityPolicy.m; sourceTree = "<group>"; };
 		1EEB1E951D1310CC66786E504D21626B /* XMCenter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMCenter.m; path = XMNetworking/XMCenter.m; sourceTree = "<group>"; };
 		20AB595E456670EB68A6C0AFECE959DB /* XMEngine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMEngine.m; path = XMNetworking/XMEngine.m; sourceTree = "<group>"; };
-		2122E6DF0C8A62D0D3D5E748FBF1564B /* mz_crypt.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_crypt.c; path = SSZipArchive/minizip/mz_crypt.c; sourceTree = "<group>"; };
+		2122E6DF0C8A62D0D3D5E748FBF1564B /* mz_crypt.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = mz_crypt.c; path = SSZipArchive/minizip/mz_crypt.c; sourceTree = "<group>"; };
 		220AD3E3C63AD1FC21C8753CD6B2CDBA /* SAVisualizedLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SAVisualizedLogger.m; sourceTree = "<group>"; };
 		225430203174BDD248CD8A2737EA8A9B /* NSObject+DelegateProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DelegateProxy.m"; sourceTree = "<group>"; };
 		228F64A1A22BA366F8C07E32D6722CD2 /* SAModuleManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SAModuleManager.m; sourceTree = "<group>"; };
@@ -575,7 +575,7 @@
 		2D9B9FCD84AD9D4BC54599388A53E9C2 /* SAViewElementInfoFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SAViewElementInfoFactory.h; sourceTree = "<group>"; };
 		2DA48CD45E9B231BDD0E17BA0411CCAD /* SANetwork.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SANetwork.m; sourceTree = "<group>"; };
 		2E96EEF28E10EFDD5DB35078F3FBF043 /* SAVisualizedEventCheck.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SAVisualizedEventCheck.m; sourceTree = "<group>"; };
-		2F61ED572D90895AD140EF0980229903 /* mz_strm_pkcrypt.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_strm_pkcrypt.c; path = SSZipArchive/minizip/mz_strm_pkcrypt.c; sourceTree = "<group>"; };
+		2F61ED572D90895AD140EF0980229903 /* mz_strm_pkcrypt.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = mz_strm_pkcrypt.c; path = SSZipArchive/minizip/mz_strm_pkcrypt.c; sourceTree = "<group>"; };
 		30019C4EDE29F9B1DD7EE3E1B871EF08 /* UIApplication+PushClick.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+PushClick.m"; sourceTree = "<group>"; };
 		315B337D0EB56EF2836473B4EB3F8D3C /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
 		316848125717338AEB2C978307926811 /* SARemoteConfigOperator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SARemoteConfigOperator.h; sourceTree = "<group>"; };
@@ -589,7 +589,7 @@
 		35E0F0705BD3EB018410E5647F1D9DF8 /* SABaseEventObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SABaseEventObject.h; sourceTree = "<group>"; };
 		37B488002E673171BEFF9DB0E190F1F5 /* SAECCPluginEncryptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SAECCPluginEncryptor.h; sourceTree = "<group>"; };
 		383125B59CB48BD4CC876FA8400E2C10 /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
-		3838F66F378339D891CADD5F375F6E5E /* sa_visualized_path.json */ = {isa = PBXFileReference; includeInIndex = 1; path = sa_visualized_path.json; sourceTree = "<group>"; };
+		3838F66F378339D891CADD5F375F6E5E /* sa_visualized_path.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = sa_visualized_path.json; sourceTree = "<group>"; };
 		398EC2B09B0F3D470E6B1C703F42D5E5 /* SensorsAnalyticsSDK+DebugMode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SensorsAnalyticsSDK+DebugMode.h"; sourceTree = "<group>"; };
 		3A578C06FE95F0FD556F732723EE156A /* SADateFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SADateFormatter.m; sourceTree = "<group>"; };
 		3A593F4B2D03327CD2E8195AC0A703D5 /* SAValidator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SAValidator.h; sourceTree = "<group>"; };
@@ -615,7 +615,7 @@
 		449DE9DD9CFA7C4CBD891EF3ADBFDAAC /* SAVisualizedAutoTrackObjectSerializer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SAVisualizedAutoTrackObjectSerializer.h; sourceTree = "<group>"; };
 		44B4D9B52CD36684051E39C9B7BB0F1F /* SAScrollViewDelegateProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SAScrollViewDelegateProxy.h; sourceTree = "<group>"; };
 		44C754EDE026480A5B7F19900C048343 /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
-		45BFCAC2B75A15B80CA15F58569E6133 /* mz_os.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_os.c; path = SSZipArchive/minizip/mz_os.c; sourceTree = "<group>"; };
+		45BFCAC2B75A15B80CA15F58569E6133 /* mz_os.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = mz_os.c; path = SSZipArchive/minizip/mz_os.c; sourceTree = "<group>"; };
 		45CBE8444B9D3D42B758C0929F7DE05F /* SANetwork.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SANetwork.h; sourceTree = "<group>"; };
 		45FE7353FB9D5FB671B002A7FE4257CF /* Pods-FuseSensorsAnalytics_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FuseSensorsAnalytics_Example.modulemap"; sourceTree = "<group>"; };
 		463D2AF31655E42E2802513F116B7851 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
@@ -639,7 +639,7 @@
 		5402CDE3BE4E24D07DF4BA634CDEED97 /* SAMethodHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SAMethodHelper.h; sourceTree = "<group>"; };
 		546220A92431A9A11B386E70915A6CF3 /* SAViewNode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SAViewNode.h; sourceTree = "<group>"; };
 		563A978CAAC2A5F9DAE98DB555CD8F55 /* SALoggerConsoleFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SALoggerConsoleFormatter.m; sourceTree = "<group>"; };
-		56A8DAFBB93F3C0919AC773F50878FE9 /* mz_strm_wzaes.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_strm_wzaes.c; path = SSZipArchive/minizip/mz_strm_wzaes.c; sourceTree = "<group>"; };
+		56A8DAFBB93F3C0919AC773F50878FE9 /* mz_strm_wzaes.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = mz_strm_wzaes.c; path = SSZipArchive/minizip/mz_strm_wzaes.c; sourceTree = "<group>"; };
 		573D8756CF4229A917E73CBDD24F7187 /* SASwizzle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SASwizzle.m; sourceTree = "<group>"; };
 		57C047A774176847844EA7356AF5CE60 /* SARemoteConfigEventObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SARemoteConfigEventObject.h; sourceTree = "<group>"; };
 		581A36064E293F4564AE59C48640749B /* SAJavaScriptBridgeManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SAJavaScriptBridgeManager.m; sourceTree = "<group>"; };
@@ -673,7 +673,7 @@
 		685816DA10ED87C2AF56315B93C41E22 /* UIApplication+AutoTrack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIApplication+AutoTrack.h"; sourceTree = "<group>"; };
 		6858B9DA12D2BD9B33A2162DB32DCCDD /* SAUplaodManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SAUplaodManager.m; sourceTree = "<group>"; };
 		6938C9CDFEB383E324E3F385517BD493 /* Pods-FuseSensorsAnalytics_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FuseSensorsAnalytics_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		695F726A3E6A3E60CDDC828C12AB2918 /* mz_zip.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_zip.c; path = SSZipArchive/minizip/mz_zip.c; sourceTree = "<group>"; };
+		695F726A3E6A3E60CDDC828C12AB2918 /* mz_zip.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = mz_zip.c; path = SSZipArchive/minizip/mz_zip.c; sourceTree = "<group>"; };
 		6A5DEAEE1D1B9E4945F9AE7752AED8AE /* SAAutoTrackManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SAAutoTrackManager.m; sourceTree = "<group>"; };
 		6AA7641C7FE22330C5616DE7CF8D915C /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
 		6AD16E5FD4AE1B143ACCA97ED855FEA3 /* SSZipArchive.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SSZipArchive.modulemap; sourceTree = "<group>"; };
@@ -702,11 +702,11 @@
 		73433A73163570B1AEBA141C358B23FF /* SensorsAnalyticsSDK+WKWebView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SensorsAnalyticsSDK+WKWebView.h"; sourceTree = "<group>"; };
 		73AAF8B5C0EAF5A0F4D6AF0BA1033CB7 /* SAApplication.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SAApplication.h; sourceTree = "<group>"; };
 		744BA1FEF1E69CADC2263D9D05C4A87D /* SAConfigOptions+AppPush.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SAConfigOptions+AppPush.h"; sourceTree = "<group>"; };
-		74A0A25421A04EDA9137A9950D1800EE /* mz_zip_rw.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_zip_rw.c; path = SSZipArchive/minizip/mz_zip_rw.c; sourceTree = "<group>"; };
+		74A0A25421A04EDA9137A9950D1800EE /* mz_zip_rw.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = mz_zip_rw.c; path = SSZipArchive/minizip/mz_zip_rw.c; sourceTree = "<group>"; };
 		752C8C2145C6052E27D4370604D25CA1 /* SAAppExtensionDataManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SAAppExtensionDataManager.h; sourceTree = "<group>"; };
 		7532C8479470DD945628689639F3DF7D /* SAReachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SAReachability.h; sourceTree = "<group>"; };
 		76078BC8528E3B6AD82B414D03C7C5A5 /* AFNetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.release.xcconfig; sourceTree = "<group>"; };
-		769088FC2FAF4F14F7195BBE019D637C /* mz_strm.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_strm.c; path = SSZipArchive/minizip/mz_strm.c; sourceTree = "<group>"; };
+		769088FC2FAF4F14F7195BBE019D637C /* mz_strm.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = mz_strm.c; path = SSZipArchive/minizip/mz_strm.c; sourceTree = "<group>"; };
 		774D9F9999BE7E9983EB908B90B83BB8 /* Pods-FuseSensorsAnalytics_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FuseSensorsAnalytics_Example-Info.plist"; sourceTree = "<group>"; };
 		77C37DED29BD49FDEED04769F50B145C /* SAReadWriteLock.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SAReadWriteLock.m; sourceTree = "<group>"; };
 		7802A9940E478A1E8B99E5E4BED16313 /* NSObject+DelegateProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+DelegateProxy.h"; sourceTree = "<group>"; };
@@ -749,7 +749,7 @@
 		8AECDFDF708025F504503789249BC1C1 /* SAChannelMatchManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SAChannelMatchManager.m; sourceTree = "<group>"; };
 		8B8C944874E8A868FBA5F80613EAABEA /* SAReferrerManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SAReferrerManager.m; sourceTree = "<group>"; };
 		8D108820FFAD83F630BBC4EFDDC89F2D /* SASecretKeyFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SASecretKeyFactory.h; sourceTree = "<group>"; };
-		8D282093A1EB045973AE23E66771A833 /* sa_autotrack_gestureview_blacklist.json */ = {isa = PBXFileReference; includeInIndex = 1; path = sa_autotrack_gestureview_blacklist.json; sourceTree = "<group>"; };
+		8D282093A1EB045973AE23E66771A833 /* sa_autotrack_gestureview_blacklist.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = sa_autotrack_gestureview_blacklist.json; sourceTree = "<group>"; };
 		8D3C8B07203C182E0D484C33D868B4AB /* SAAppLifecycle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SAAppLifecycle.m; sourceTree = "<group>"; };
 		8D6D390814D6AD9FDEC6A90C9C79982F /* XMNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XMNetworking.modulemap; sourceTree = "<group>"; };
 		8D8F19AE92C9F6C826DC2E4E128F4FF6 /* SensorsAnalyticsSDK+Deeplink.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SensorsAnalyticsSDK+Deeplink.h"; sourceTree = "<group>"; };
@@ -766,7 +766,7 @@
 		95459705DCEB7124109147CAF3CBC1F3 /* mz_os.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz_os.h; path = SSZipArchive/minizip/mz_os.h; sourceTree = "<group>"; };
 		95521040C130E44280CA37D35BC86376 /* SAIDFAHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SAIDFAHelper.m; sourceTree = "<group>"; };
 		9553D3C24280B8F08C8189F74D94BA83 /* UIViewController+SAPageLeave.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+SAPageLeave.h"; sourceTree = "<group>"; };
-		96F21AF7D8FEB979140299A690BBFD44 /* mz_crypt_apple.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_crypt_apple.c; path = SSZipArchive/minizip/mz_crypt_apple.c; sourceTree = "<group>"; };
+		96F21AF7D8FEB979140299A690BBFD44 /* mz_crypt_apple.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = mz_crypt_apple.c; path = SSZipArchive/minizip/mz_crypt_apple.c; sourceTree = "<group>"; };
 		974B7E25399F1368B9360B5FE5FD295D /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
 		9750CAECDDFE2AE3F9E80C41959878FD /* SAAbstractLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SAAbstractLogger.m; sourceTree = "<group>"; };
 		97A9F0C1125896BB18345E2E59F6B1DC /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
@@ -775,10 +775,10 @@
 		98BB627936995ED38ED1DBFF599BE48B /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		9933BC67C646036F17AFEA1D4FD1E4AB /* SAGzipUtility.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SAGzipUtility.m; sourceTree = "<group>"; };
 		997CE6C84A7DBCCEDAFC271275AA6065 /* Pods-FuseSensorsAnalytics_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FuseSensorsAnalytics_Example-frameworks.sh"; sourceTree = "<group>"; };
-		9BC5B2A93B10F0C1104F9DACB5133081 /* mz_strm_split.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_strm_split.c; path = SSZipArchive/minizip/mz_strm_split.c; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9F58A4CC17D773D6E2518C42C2BF249F /* mz_strm_mem.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_strm_mem.c; path = SSZipArchive/minizip/mz_strm_mem.c; sourceTree = "<group>"; };
-		9FFC7E432F0987EA51E49721E0180768 /* FuseSensorsAnalytics.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FuseSensorsAnalytics.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9BC5B2A93B10F0C1104F9DACB5133081 /* mz_strm_split.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = mz_strm_split.c; path = SSZipArchive/minizip/mz_strm_split.c; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F58A4CC17D773D6E2518C42C2BF249F /* mz_strm_mem.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = mz_strm_mem.c; path = SSZipArchive/minizip/mz_strm_mem.c; sourceTree = "<group>"; };
+		9FFC7E432F0987EA51E49721E0180768 /* FuseSensorsAnalytics.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = FuseSensorsAnalytics.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		A017915664499164AC6CEEA67CDE0F0A /* SAGestureTargetActionModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SAGestureTargetActionModel.m; sourceTree = "<group>"; };
 		A09AEAC4E36B4CE6B3194164B2C0D729 /* NSInvocation+SAHelpers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSInvocation+SAHelpers.h"; sourceTree = "<group>"; };
 		A0B77C667F88298F2D17F660390A46BB /* UIViewController+SAPageLeave.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+SAPageLeave.m"; sourceTree = "<group>"; };
@@ -796,7 +796,7 @@
 		A51F6FB5B450A25EE4C5040B25E897D8 /* SAGeneralGestureViewProcessor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SAGeneralGestureViewProcessor.h; sourceTree = "<group>"; };
 		A55C320F9699BB31F56AE80576A207BC /* SAAutoTrackUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SAAutoTrackUtils.h; sourceTree = "<group>"; };
 		A73357D8F703311F35E92641D09D7F1F /* SAVisualizedSnapshotMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SAVisualizedSnapshotMessage.h; sourceTree = "<group>"; };
-		A77B0DB19F93A26B65E01E1847AFF8C0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		A77B0DB19F93A26B65E01E1847AFF8C0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		A81C0664F85F7712E09F56B9AF2E85C8 /* AFAutoPurgingImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFAutoPurgingImageCache.h; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.h"; sourceTree = "<group>"; };
 		A84373CC2C97EB6AE32C1E94AB19A091 /* mz_strm_pkcrypt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz_strm_pkcrypt.h; path = SSZipArchive/minizip/mz_strm_pkcrypt.h; sourceTree = "<group>"; };
 		A911CA0BA8CFE0F61351F85574FF5FBF /* SAConfigOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SAConfigOptions.h; sourceTree = "<group>"; };
@@ -807,7 +807,7 @@
 		AB54C9C95FA6614A32F28C7763E02547 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
 		AC1331E4B3201281C89890EA7BDBEDAC /* SAEventLibObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SAEventLibObject.m; sourceTree = "<group>"; };
 		AC318689B4975AEBFBDE29811D5780C6 /* SAEventIdentifier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SAEventIdentifier.h; sourceTree = "<group>"; };
-		ADD0845BA35EDD414FB1602082965225 /* mz_compat.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_compat.c; path = SSZipArchive/minizip/mz_compat.c; sourceTree = "<group>"; };
+		ADD0845BA35EDD414FB1602082965225 /* mz_compat.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = mz_compat.c; path = SSZipArchive/minizip/mz_compat.c; sourceTree = "<group>"; };
 		ADE69B7304902F29337C8F3EA372C31B /* SARSAPluginEncryptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SARSAPluginEncryptor.m; sourceTree = "<group>"; };
 		AE2DF41855B8EF3D1F5AF78A58C2D7F2 /* SAAppPushManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SAAppPushManager.h; sourceTree = "<group>"; };
 		B0A1DF47659C98FEA965B1A8235BCAC9 /* SATypeDescription.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SATypeDescription.m; sourceTree = "<group>"; };
@@ -819,7 +819,7 @@
 		B46E15CB24CFD440A3589C590A582780 /* SAViewNode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SAViewNode.m; sourceTree = "<group>"; };
 		B4DD167B3050766763011D9D91C8B431 /* FuseSensorsAnalytics */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FuseSensorsAnalytics; path = FuseSensorsAnalytics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4FFDF7800FFFBE0B79C53155E6D9F40 /* SAObjectSerializerContext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SAObjectSerializerContext.h; sourceTree = "<group>"; };
-		B51E9C879C8556D62794D1D47B39AECB /* mz_os_posix.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_os_posix.c; path = SSZipArchive/minizip/mz_os_posix.c; sourceTree = "<group>"; };
+		B51E9C879C8556D62794D1D47B39AECB /* mz_os_posix.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = mz_os_posix.c; path = SSZipArchive/minizip/mz_os_posix.c; sourceTree = "<group>"; };
 		B530B8A64E1F145BE70BEE93891CC9D4 /* SALocationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SALocationManager.h; sourceTree = "<group>"; };
 		B536DD7B12D184A8E7B4311AB92FDDB2 /* UIViewController+SAElementPath.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+SAElementPath.m"; sourceTree = "<group>"; };
 		B5780AF1045E45E20492B26B518CF3A0 /* SATrackEventObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SATrackEventObject.h; sourceTree = "<group>"; };
@@ -849,17 +849,17 @@
 		C156579157679E216D1B87B438BF557C /* SSZipArchive.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SSZipArchive.release.xcconfig; sourceTree = "<group>"; };
 		C1F899D74D54EF3F4C2B3D54527FA538 /* SACommonUtility.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SACommonUtility.m; sourceTree = "<group>"; };
 		C269BB6245B2B10565B2CA253257B09C /* AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFNetworking-dummy.m"; sourceTree = "<group>"; };
-		C273CA6D3B2A61E144041AB2551BF764 /* mz_strm_zlib.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_strm_zlib.c; path = SSZipArchive/minizip/mz_strm_zlib.c; sourceTree = "<group>"; };
+		C273CA6D3B2A61E144041AB2551BF764 /* mz_strm_zlib.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = mz_strm_zlib.c; path = SSZipArchive/minizip/mz_strm_zlib.c; sourceTree = "<group>"; };
 		C51D134D8437A29227A5EA2FB4AD76B2 /* AFAutoPurgingImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFAutoPurgingImageCache.m; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.m"; sourceTree = "<group>"; };
 		C69363522574258E97DD3511E67B085B /* SAIDFAHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SAIDFAHelper.h; sourceTree = "<group>"; };
 		C7FCF29E463A9328B98BAB248B6D4A4E /* SensorsAnalyticsSDK+JavaScriptBridge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SensorsAnalyticsSDK+JavaScriptBridge.h"; sourceTree = "<group>"; };
-		C8D3244659BBA104138F5DBC4E769387 /* mz_strm_buf.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_strm_buf.c; path = SSZipArchive/minizip/mz_strm_buf.c; sourceTree = "<group>"; };
-		C8FD7B62466FE6BFB712141FE7A57B3F /* mz_strm_os_posix.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mz_strm_os_posix.c; path = SSZipArchive/minizip/mz_strm_os_posix.c; sourceTree = "<group>"; };
+		C8D3244659BBA104138F5DBC4E769387 /* mz_strm_buf.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = mz_strm_buf.c; path = SSZipArchive/minizip/mz_strm_buf.c; sourceTree = "<group>"; };
+		C8FD7B62466FE6BFB712141FE7A57B3F /* mz_strm_os_posix.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = mz_strm_os_posix.c; path = SSZipArchive/minizip/mz_strm_os_posix.c; sourceTree = "<group>"; };
 		C91405FB9AAABD24C35EDCC751EDCF42 /* SAEncryptProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SAEncryptProtocol.h; sourceTree = "<group>"; };
 		C9C0CB39026CA85C304A206613290B11 /* SAConfigOptions+Encrypt.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SAConfigOptions+Encrypt.m"; sourceTree = "<group>"; };
 		CB66E632DBD2C9F3F22A7C07235FC4B9 /* SAAutoTrackManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SAAutoTrackManager.h; sourceTree = "<group>"; };
 		CCADC94890F8772D4EB0EA350E107D7D /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
-		CD72DE8FEFB656FF29E70AB47E826B22 /* sa_mcc_mnc_mini.json */ = {isa = PBXFileReference; includeInIndex = 1; path = sa_mcc_mnc_mini.json; sourceTree = "<group>"; };
+		CD72DE8FEFB656FF29E70AB47E826B22 /* sa_mcc_mnc_mini.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = sa_mcc_mnc_mini.json; sourceTree = "<group>"; };
 		CDE918A219812EB478DFB42E40024A6D /* FuseSensorsAnalytics.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FuseSensorsAnalytics.release.xcconfig; sourceTree = "<group>"; };
 		CF69C038B6FEEFCBB9342810CB866BA2 /* SAUNUserNotificationCenterDelegateProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SAUNUserNotificationCenterDelegateProxy.h; sourceTree = "<group>"; };
 		D13F5B787FFB425DA20F16E8E4CE5301 /* SAVisualizedAutoTrackObjectSerializer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SAVisualizedAutoTrackObjectSerializer.m; sourceTree = "<group>"; };
@@ -897,7 +897,7 @@
 		E7C0B6D4FE97672041AC831FCAB6389D /* SAAppTracker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SAAppTracker.h; sourceTree = "<group>"; };
 		EB1D4CE4BFB3A04E31331FB4D62D9C84 /* mz_strm_buf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = mz_strm_buf.h; path = SSZipArchive/minizip/mz_strm_buf.h; sourceTree = "<group>"; };
 		EBF553862C0FA7C6422405A3548FC69D /* SAFileStore.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SAFileStore.m; sourceTree = "<group>"; };
-		ED281DF97E2852DBDB8A8D67EFD4B1ED /* sa_autotrack_viewcontroller_blacklist.json */ = {isa = PBXFileReference; includeInIndex = 1; path = sa_autotrack_viewcontroller_blacklist.json; sourceTree = "<group>"; };
+		ED281DF97E2852DBDB8A8D67EFD4B1ED /* sa_autotrack_viewcontroller_blacklist.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = sa_autotrack_viewcontroller_blacklist.json; sourceTree = "<group>"; };
 		EE6B98B461EBEFD4F84AEF8CC608BD4E /* Pods-FuseSensorsAnalytics_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FuseSensorsAnalytics_Tests-umbrella.h"; sourceTree = "<group>"; };
 		EEE6424EEEE3EDFDD0BDC3CF1A7B784C /* SAWebElementView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SAWebElementView.m; sourceTree = "<group>"; };
 		EF2644AC461D5D1B84239291C4F9F5AE /* UIView+SAVisualProperties.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+SAVisualProperties.m"; sourceTree = "<group>"; };
@@ -907,7 +907,7 @@
 		F043F0AE38FF79CF1B9E749012A80762 /* UIView+SAElementPath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+SAElementPath.h"; sourceTree = "<group>"; };
 		F081C5CF4653E8AB06E81028F9CE9FEC /* SAHTTPSession.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SAHTTPSession.m; sourceTree = "<group>"; };
 		F144EAC402F1F9D24135D261C51876C2 /* SADebugModeManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SADebugModeManager.h; sourceTree = "<group>"; };
-		F1503119F58303A36E757FEB0EF6A524 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		F1503119F58303A36E757FEB0EF6A524 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		F153F8E21D043A82806D731C37F40B15 /* AFNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-umbrella.h"; sourceTree = "<group>"; };
 		F17F36BA377EFD52D76651775EF566F9 /* SAEncryptManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SAEncryptManager.m; sourceTree = "<group>"; };
 		F1E7EDCCCEB136638AA82F735ABE0C2D /* XMNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XMNetworking.debug.xcconfig; sourceTree = "<group>"; };
@@ -1001,7 +1001,6 @@
 				40A592D8BFEC00E9711EB3BF0E2A298B /* SAAppEndTracker.h */,
 				F6FC7DDD23FA61EC64A2A86E67B7460F /* SAAppEndTracker.m */,
 			);
-			name = AppEnd;
 			path = AppEnd;
 			sourceTree = "<group>";
 		};
@@ -1015,7 +1014,6 @@
 				D7895411EC2A97B8410EF6FA3CD002F8 /* Processor */,
 				CA7CA8C4EDD7BD3CE022DE403A2A761E /* Target */,
 			);
-			name = Gesture;
 			path = Gesture;
 			sourceTree = "<group>";
 		};
@@ -1048,7 +1046,6 @@
 				2D9B9FCD84AD9D4BC54599388A53E9C2 /* SAViewElementInfoFactory.h */,
 				B3A7760E3F9191D803126BC1DB391890 /* SAViewElementInfoFactory.m */,
 			);
-			name = ElementInfo;
 			path = ElementInfo;
 			sourceTree = "<group>";
 		};
@@ -1093,7 +1090,6 @@
 				40BDB819C0A4CABAF42B0D6CBEE01F53 /* SAUplaodManager.h */,
 				6858B9DA12D2BD9B33A2162DB32DCCDD /* SAUplaodManager.m */,
 			);
-			name = Tracker;
 			path = Tracker;
 			sourceTree = "<group>";
 		};
@@ -1117,7 +1113,6 @@
 				A483B9328001B98CA2A8D316C6017148 /* UIScrollView+AutoTrack.h */,
 				F2BDD83D2DF589E8D5D15B45E20B0570 /* UIScrollView+AutoTrack.m */,
 			);
-			name = Cell;
 			path = Cell;
 			sourceTree = "<group>";
 		};
@@ -1169,7 +1164,6 @@
 				6B3C37C8F3ACA0388D902690B4F03549 /* ZipArchive.h */,
 				8081A828AD173BA1008735FAC0750EDF /* Support Files */,
 			);
-			name = SSZipArchive;
 			path = SSZipArchive;
 			sourceTree = "<group>";
 		};
@@ -1181,7 +1175,6 @@
 				3A8B26730416D2E1EA200A8C1E423D0C /* SAVisualizedLogger.h */,
 				220AD3E3C63AD1FC21C8753CD6B2CDBA /* SAVisualizedLogger.m */,
 			);
-			name = DebugLog;
 			path = DebugLog;
 			sourceTree = "<group>";
 		};
@@ -1193,7 +1186,6 @@
 				16FE47DF3C3278227DA94794D75FD4F9 /* SAVisualPropertiesConfigSources.h */,
 				88D3376E88C1723ACFEF6B717C74BA62 /* SAVisualPropertiesConfigSources.m */,
 			);
-			name = Config;
 			path = Config;
 			sourceTree = "<group>";
 		};
@@ -1210,7 +1202,6 @@
 				FDEF6C6D6AA95D9367EF5F23B38C7826 /* SASuperProperty.m */,
 				3C0130F090DC1B33D2E7CF871836612B /* EventObject */,
 			);
-			name = Builder;
 			path = Builder;
 			sourceTree = "<group>";
 		};
@@ -1254,7 +1245,6 @@
 				B5780AF1045E45E20492B26B518CF3A0 /* SATrackEventObject.h */,
 				099237896564D21BB2311855B0B527CC /* SATrackEventObject.m */,
 			);
-			name = EventObject;
 			path = EventObject;
 			sourceTree = "<group>";
 		};
@@ -1296,7 +1286,6 @@
 				33A31349298BDFF77671F585B2318619 /* Support Files */,
 				B2462D545CD7C9EEB7BCC9166C388CF5 /* UIKit */,
 			);
-			name = AFNetworking;
 			path = AFNetworking;
 			sourceTree = "<group>";
 		};
@@ -1319,7 +1308,6 @@
 				9013F2EC9EF546FDEC317F797394183F /* UIViewController+AutoTrack.h */,
 				A3934E1F6863EA65CFDE2ECFBD53FD73 /* UIViewController+AutoTrack.m */,
 			);
-			name = AppViewScreen;
 			path = AppViewScreen;
 			sourceTree = "<group>";
 		};
@@ -1329,7 +1317,6 @@
 				86746256392CAF250F4DF1A0501563CB /* UIView+SAElementSelector.h */,
 				B9507B3F8DAE5B7B01D52FCB75CDFEDC /* UIView+SAElementSelector.m */,
 			);
-			name = ElementSelector;
 			path = ElementSelector;
 			sourceTree = "<group>";
 		};
@@ -1364,7 +1351,6 @@
 				9553D3C24280B8F08C8189F74D94BA83 /* UIViewController+SAPageLeave.h */,
 				A0B77C667F88298F2D17F660390A46BB /* UIViewController+SAPageLeave.m */,
 			);
-			name = AppPageLeave;
 			path = AppPageLeave;
 			sourceTree = "<group>";
 		};
@@ -1428,7 +1414,6 @@
 				3F6D22B583BA319598CC488D0A3F28A9 /* SAWeakPropertyContainer.h */,
 				FCA545838D8D17C11051E539E11A1090 /* SAWeakPropertyContainer.m */,
 			);
-			name = Utils;
 			path = Utils;
 			sourceTree = "<group>";
 		};
@@ -1512,7 +1497,6 @@
 				F695494227B50CAC9FAB053BCA13D352 /* XMRequest.m */,
 				72999AC5D390C1A74CCF648B917EAECE /* Support Files */,
 			);
-			name = XMNetworking;
 			path = XMNetworking;
 			sourceTree = "<group>";
 		};
@@ -1578,7 +1562,6 @@
 				24B3D9A9CDB6805BF73472D2AD8F61F3 /* Cell */,
 				026E63EC2527931FF3FC609644126F28 /* Gesture */,
 			);
-			name = AppClick;
 			path = AppClick;
 			sourceTree = "<group>";
 		};
@@ -1623,7 +1606,6 @@
 				2918D6CA722538A58626AD94EC7FDB6B /* UIView+SAVisualProperties.h */,
 				EF2644AC461D5D1B84239291C4F9F5AE /* UIView+SAVisualProperties.m */,
 			);
-			name = ViewNode;
 			path = ViewNode;
 			sourceTree = "<group>";
 		};
@@ -1685,7 +1667,6 @@
 				732F2061416A919C65FDDD61B4203265 /* SAAppStartTracker.h */,
 				B793D8CE9D4C1E810BDF6FD8E6DB2A27 /* SAAppStartTracker.m */,
 			);
-			name = AppStart;
 			path = AppStart;
 			sourceTree = "<group>";
 		};
@@ -1709,7 +1690,6 @@
 				7532C8479470DD945628689639F3DF7D /* SAReachability.h */,
 				49ACE732D8AD0CB755B5496341F67C56 /* SAReachability.m */,
 			);
-			name = Network;
 			path = Network;
 			sourceTree = "<group>";
 		};
@@ -1795,7 +1775,6 @@
 				0D9C4B63074D84B70C8DF90AB07A70A0 /* SAGestureTarget.h */,
 				80866489249AF75A00B4F2A9D9385A1D /* SAGestureTarget.m */,
 			);
-			name = Target;
 			path = Target;
 			sourceTree = "<group>";
 		};
@@ -1831,7 +1810,6 @@
 				79DC7F5C4C07A6AECAFB1C2385D3A4C4 /* SAVisualizedEventCheck.h */,
 				2E96EEF28E10EFDD5DB35078F3FBF043 /* SAVisualizedEventCheck.m */,
 			);
-			name = EventCheck;
 			path = EventCheck;
 			sourceTree = "<group>";
 		};
@@ -1843,7 +1821,6 @@
 				BA6896AC47054745A0E8753FD0AED11B /* SAGestureViewProcessorFactory.h */,
 				A379FE58B113D8DB48BD2BD384267FA3 /* SAGestureViewProcessorFactory.m */,
 			);
-			name = Processor;
 			path = Processor;
 			sourceTree = "<group>";
 		};
@@ -1923,7 +1900,6 @@
 				70B327B0B7006F8E0A218474CC025F5A /* SALogMessage.h */,
 				1841439DA74953592826D940D84CD168 /* SALogMessage.m */,
 			);
-			name = SALogger;
 			path = SALogger;
 			sourceTree = "<group>";
 		};
@@ -1936,7 +1912,6 @@
 				BCE2A5F2CF68F44909647B3B0EB4BA40 /* UIViewController+SAElementPath.h */,
 				B536DD7B12D184A8E7B4311AB92FDDB2 /* UIViewController+SAElementPath.m */,
 			);
-			name = ElementPath;
 			path = ElementPath;
 			sourceTree = "<group>";
 		};
@@ -1948,7 +1923,6 @@
 				2A90476D2A28587BD71EEAE1E081813B /* DebugLog */,
 				AC5E88EBB6CC4344FE2394D02F231DCF /* ViewNode */,
 			);
-			name = VisualProperties;
 			path = VisualProperties;
 			sourceTree = "<group>";
 		};
@@ -1967,7 +1941,6 @@
 				DD04AEB61B7933A3C45D7634DB38CC9F /* SAWebElementView.h */,
 				EEE6424EEEE3EDFDD0BDC3CF1A7B784C /* SAWebElementView.m */,
 			);
-			name = WebElementInfo;
 			path = WebElementInfo;
 			sourceTree = "<group>";
 		};
@@ -1983,7 +1956,6 @@
 				5402CDE3BE4E24D07DF4BA634CDEED97 /* SAMethodHelper.h */,
 				5BE32D1142C54B3B18EB4D2B68FFC2AD /* SAMethodHelper.m */,
 			);
-			name = HookDelegate;
 			path = HookDelegate;
 			sourceTree = "<group>";
 		};
@@ -3183,8 +3155,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
