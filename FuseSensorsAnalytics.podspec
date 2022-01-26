@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FuseSensorsAnalytics'
-  s.version          = '1.0.4'
+  s.version          = '1.0.5'
   s.summary          = 'A short description of FuseSensorsAnalytics.'
 
 # This description is used to generate tags and improve search results.
@@ -64,8 +64,8 @@ TODO: Add long description of the pod here.
    s.subspec 'CAID' do |f|
      f.ios.deployment_target = '9.0'
      f.dependency 'FuseSensorsAnalytics/Core'
-     f.source_files = "FuseSensorsAnalytics/CAID/**/*.{h,m}"
-     f.private_header_files = 'FuseSensorsAnalytics/CAID/**/*.h'
+     f.source_files = "FuseSensorsAnalytics/CAID/*.{h,m}"
+     f.private_header_files = 'FuseSensorsAnalytics/CAID/*.h'
    end
 
    # 全埋点
@@ -90,7 +90,7 @@ TODO: Add long description of the pod here.
      f.ios.deployment_target = '9.0'
      f.frameworks = 'CoreLocation'
      f.dependency 'FuseSensorsAnalytics/Core'
-     f.source_files = "FuseSensorsAnalytics/Location/**/*.{h,m}"
+     f.source_files = "FuseSensorsAnalytics/Location/*.{h,m}"
      f.public_header_files = 'FuseSensorsAnalytics/Location/SensorsAnalyticsSDK+Location.h'
    end
 
@@ -98,7 +98,7 @@ TODO: Add long description of the pod here.
    s.subspec 'DeviceOrientation' do |f|
      f.ios.deployment_target = '9.0'
      f.dependency 'FuseSensorsAnalytics/Core'
-     f.source_files = 'FuseSensorsAnalytics/DeviceOrientation/**/*.{h,m}'
+     f.source_files = 'FuseSensorsAnalytics/DeviceOrientation/*.{h,m}'
      f.public_header_files = 'FuseSensorsAnalytics/DeviceOrientation/SensorsAnalyticsSDK+DeviceOrientation.h'
      f.frameworks = 'CoreMotion'
    end
@@ -107,7 +107,7 @@ TODO: Add long description of the pod here.
    s.subspec 'AppPush' do |f|
      f.ios.deployment_target = '9.0'
      f.dependency 'FuseSensorsAnalytics/Core'
-     f.source_files = "FuseSensorsAnalytics/AppPush/**/*.{h,m}"
+     f.source_files = "FuseSensorsAnalytics/AppPush/*.{h,m}"
      f.public_header_files = 'FuseSensorsAnalytics/AppPush/SAConfigOptions+AppPush.h'
    end
 
@@ -115,7 +115,7 @@ TODO: Add long description of the pod here.
    s.subspec 'Exception' do |e|
      e.ios.deployment_target = '9.0'
      e.dependency 'FuseSensorsAnalytics/Common'
-     e.source_files  =  "FuseSensorsAnalytics/Exception/**/*.{h,m}"
+     e.source_files  =  "FuseSensorsAnalytics/Exception/*.{h,m}"
      e.public_header_files = 'FuseSensorsAnalytics/Exception/SAConfigOptions+Exception.h'
    end
   
@@ -123,7 +123,7 @@ TODO: Add long description of the pod here.
    s.subspec 'WKWebView' do |w|
      w.ios.deployment_target = '9.0'
      w.dependency 'FuseSensorsAnalytics/Extension'
-     w.source_files  =  "FuseSensorsAnalytics/WKWebView/**/*.{h,m}"
+     w.source_files  =  "FuseSensorsAnalytics/WKWebView/*.{h,m}"
      w.public_header_files = 'FuseSensorsAnalytics/WKWebView/**/SensorsAnalyticsSDK+WKWebView.h'
    end
    
