@@ -118,14 +118,15 @@ TODO: Add long description of the pod here.
      e.source_files  =  "FuseSensorsAnalytics/Exception/**/*.{h,m}"
      e.public_header_files = 'FuseSensorsAnalytics/Exception/SAConfigOptions+Exception.h'
    end
-
+  
    # 基于 UA，使用 WKWebView 进行打通
    s.subspec 'WKWebView' do |w|
      w.ios.deployment_target = '9.0'
-     w.dependency 'FuseSensorsAnalytics/Core'
+     w.dependency 'FuseSensorsAnalytics/Extension'
      w.source_files  =  "FuseSensorsAnalytics/WKWebView/**/*.{h,m}"
-     w.public_header_files = 'FuseSensorsAnalytics/WKWebView/SensorsAnalyticsSDK+WKWebView.h'
+     w.public_header_files = 'FuseSensorsAnalytics/WKWebView/**/SensorsAnalyticsSDK+WKWebView.h'
    end
-  s.dependency 'XMNetworking'
-  s.dependency 'SSZipArchive'
+   
+   s.dependency 'XMNetworking'
+   s.dependency 'SSZipArchive'
 end
