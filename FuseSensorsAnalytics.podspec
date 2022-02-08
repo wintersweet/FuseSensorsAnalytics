@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FuseSensorsAnalytics'
-  s.version          = '1.0.6'
+  s.version          = '1.0.7'
   s.summary          = 'A short description of FuseSensorsAnalytics.'
 
 # This description is used to generate tags and improve search results.
@@ -38,7 +38,7 @@ TODO: Add long description of the pod here.
      core_dir = "FuseSensorsAnalytics/Core/"
      b.source_files = core_dir + "**/*.{h,m}"
      b.exclude_files = core_dir + "SAAlertController.h", core_dir + "SAAlertController.m"
-     b.public_header_files = core_dir + "SensorsAnalyticsSDK.h", core_dir + "SensorsAnalyticsSDK+Public.h", core_dir + "SAAppExtensionDataManager.h", core_dir + "SASecurityPolicy.h", core_dir + "SAConfigOptions.h", core_dir + "SAConstants.h"
+     b.public_header_files = core_dir + "SensorsAnalyticsSDK.h", core_dir + "SensorsAnalyticsSDK+Public.h", core_dir + "SAAppExtensionDataManager.h", core_dir + "SASecurityPolicy.h", core_dir + "SAConfigOptions.h", core_dir+ "SAUplaodManager.h",core_dir + "SAConstants.h"
      b.ios.resource = 'FuseSensorsAnalytics/SensorsAnalyticsSDK.bundle'
      b.ios.frameworks = 'CoreTelephony'
    end
@@ -52,7 +52,7 @@ TODO: Add long description of the pod here.
     c.public_header_files = 'FuseSensorsAnalytics/JSBridge/SensorsAnalyticsSDK+JavaScriptBridge.h'
     c.source_files = 'FuseSensorsAnalytics/Core/SAAlertController.{h,m}', 'FuseSensorsAnalytics/JSBridge/**/*.{h,m}'
     c.ios.source_files = 'FuseSensorsAnalytics/RemoteConfig/**/*.{h,m}', 'FuseSensorsAnalytics/ChannelMatch/**/*.{h,m}', 'FuseSensorsAnalytics/Encrypt/**/*.{h,m}', 'FuseSensorsAnalytics/Deeplink/**/*.{h,m}', 'FuseSensorsAnalytics/DebugMode/**/*.{h,m}', 'FuseSensorsAnalytics/Core/SAAlertController.h'
-    c.ios.public_header_files = 'FuseSensorsAnalytics/{Encrypt,RemoteConfig,ChannelMatch,Deeplink,DebugMode}/{SAConfigOptions,SensorsAnalyticsSDK}+*.h', 'FuseSensorsAnalytics/Encrypt/SAEncryptProtocol.h', 'FuseSensorsAnalytics/Encrypt/SASecretKey.h'
+    c.ios.public_header_files = 'FuseSensorsAnalytics/{Encrypt,RemoteConfig,ChannelMatch,Deeplink,DebugMode}/{SAConfigOptions,SensorsAnalyticsSDK,SADeeplinkManager}+*.h', 'FuseSensorsAnalytics/Encrypt/SAEncryptProtocol.h', 'FuseSensorsAnalytics/Encrypt/SASecretKey.h'
   end
    
    s.subspec 'Core' do |c|

@@ -120,8 +120,8 @@
 
         ]
       },
-      "source_files": "FuseSensorsAnalytics/CAID/*.{h,m}",
-      "private_header_files": "FuseSensorsAnalytics/CAID/*.h"
+      "source_files": "FuseSensorsAnalytics/CAID/**/*.{h,m}",
+      "private_header_files": "FuseSensorsAnalytics/CAID/**/*.h"
     },
     {
       "name": "AutoTrack",
@@ -167,7 +167,7 @@
 
         ]
       },
-      "source_files": "FuseSensorsAnalytics/Location/*.{h,m}",
+      "source_files": "FuseSensorsAnalytics/Location/**/*.{h,m}",
       "public_header_files": "FuseSensorsAnalytics/Location/SensorsAnalyticsSDK+Location.h"
     },
     {
@@ -180,7 +180,7 @@
 
         ]
       },
-      "source_files": "FuseSensorsAnalytics/DeviceOrientation/*.{h,m}",
+      "source_files": "FuseSensorsAnalytics/DeviceOrientation/**/*.{h,m}",
       "public_header_files": "FuseSensorsAnalytics/DeviceOrientation/SensorsAnalyticsSDK+DeviceOrientation.h",
       "frameworks": "CoreMotion"
     },
@@ -194,7 +194,7 @@
 
         ]
       },
-      "source_files": "FuseSensorsAnalytics/AppPush/*.{h,m}",
+      "source_files": "FuseSensorsAnalytics/AppPush/**/*.{h,m}",
       "public_header_files": "FuseSensorsAnalytics/AppPush/SAConfigOptions+AppPush.h"
     },
     {
@@ -207,7 +207,7 @@
 
         ]
       },
-      "source_files": "FuseSensorsAnalytics/Exception/*.{h,m}",
+      "source_files": "FuseSensorsAnalytics/Exception/**/*.{h,m}",
       "public_header_files": "FuseSensorsAnalytics/Exception/SAConfigOptions+Exception.h"
     },
     {
