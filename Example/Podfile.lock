@@ -60,7 +60,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
-  FuseSensorsAnalytics: 4fcfa078369cfd47897ead853e31474ede0e9374
+  FuseSensorsAnalytics: fe44a16487b3eb2dfe56cfdaaaa75a3f8fdd0c80
   SSZipArchive: e7b4f3d9e780c2acc1764cd88fbf2de28f26e5b2
   XMNetworking: 7160cc06f504f325eec515a1e687ee1aa89bc462
 

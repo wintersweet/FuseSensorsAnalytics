@@ -18,6 +18,7 @@
 #import "SAConfigOptions.h"
 #import "SAUplaodManager.h"
 #import "SAConstants.h"
+#import "SAModuleProtocol.h"
 #import "SensorsAnalyticsSDK+JavaScriptBridge.h"
 #import "SensorsAnalyticsSDK+SAChannelMatch.h"
 #import "SensorsAnalyticsSDK+DebugMode.h"

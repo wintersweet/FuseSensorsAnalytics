@@ -151,7 +151,6 @@
 		59E072386BFA49F98D72E530BCA08304 /* SAObjectSerializerContext.h in Headers */ = {isa = PBXBuildFile; fileRef = C37A020E072ECB6B0A06899909BA1F52 /* SAObjectSerializerContext.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		59EB7045482835754EA11F7C1A5E01FE /* mz_strm_os_posix.c in Sources */ = {isa = PBXBuildFile; fileRef = C8FD7B62466FE6BFB712141FE7A57B3F /* mz_strm_os_posix.c */; };
 		5A126523753C6072A8D4E4C2162523E3 /* SARemoteConfigCheckOperator.m in Sources */ = {isa = PBXBuildFile; fileRef = 287904A9A54633B153C6EEC2FF5F0684 /* SARemoteConfigCheckOperator.m */; };
-		5A5CCBFBB796AD18D1FC631AFFDE438B /* SAModuleProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 7588466211E1AD0B3126084FD367E068 /* SAModuleProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		5A8505D9FC8B985BDD561D540AA74507 /* SAReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AAA6D68F14295FD8641C407544A3A8B /* SAReachability.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		5B7CBAF7497C5305251E44C47F61FFC3 /* SAConsoleLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = E449C47603E10C8F8365342A89FC9434 /* SAConsoleLogger.m */; };
 		5B7CD33613755587DED4742AAF13DA37 /* SAAppLifecycle.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA7023E4A87D2D33382A30C1E7DE05F /* SAAppLifecycle.m */; };
@@ -365,6 +364,7 @@
 		F237E548522E7052FCABC048C2957836 /* SAAppEndTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = 34A1E28E77C7CC2A335AFEE2C961C888 /* SAAppEndTracker.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		F27FDEA23CFE63CFDB01CA1A5860C5A6 /* SARemoteConfigCommonOperator.m in Sources */ = {isa = PBXBuildFile; fileRef = DDEB982F91DF814D0F687E714008225C /* SARemoteConfigCommonOperator.m */; };
 		F2A48383B8BB881B401D982657BF7770 /* UIViewController+SAPageLeave.h in Headers */ = {isa = PBXBuildFile; fileRef = 08A2A40CBEA20B4304FB3010E66D2811 /* UIViewController+SAPageLeave.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F3E9E385AB9980FCF21B992C3F2A2C52 /* SAModuleProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 7588466211E1AD0B3126084FD367E068 /* SAModuleProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F4F7919900600EE556127DE3DCE816E7 /* SARemoteConfigOperator.h in Headers */ = {isa = PBXBuildFile; fileRef = AA66E8C01F90B4EB1EA7024631B8FCF8 /* SARemoteConfigOperator.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		F5B306298A1EE2CCFE4D508A5C032F73 /* mz_zip.h in Headers */ = {isa = PBXBuildFile; fileRef = F898EA6F0E19EAD54F12004BF40A2A4C /* mz_zip.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		F71EB244CBF1546F9FC1A592885B3C36 /* SAEventStore.h in Headers */ = {isa = PBXBuildFile; fileRef = 642D496DC1635B737C4753F3B1FF563D /* SAEventStore.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -1944,7 +1944,7 @@
 				96CCBDE4BD32CF5B3A1E9AB22957C3F3 /* SALogMessage.h in Headers */,
 				B0B8D0CC0B6D58CC3B9E1376BE8DCA65 /* SAMethodHelper.h in Headers */,
 				65FB1F89290BF203CD8135EE1FF5B976 /* SAModuleManager.h in Headers */,
-				5A5CCBFBB796AD18D1FC631AFFDE438B /* SAModuleProtocol.h in Headers */,
+				F3E9E385AB9980FCF21B992C3F2A2C52 /* SAModuleProtocol.h in Headers */,
 				056F5CCC2269BBEC62ACA781E193D6E7 /* SANetwork.h in Headers */,
 				8966FF5134C18B4D4AA9670506F74B1C /* SAObject+SAConfigOptions.h in Headers */,
 				989EAF72A94FB22C9372F95093708DB4 /* SAObjectIdentityProvider.h in Headers */,

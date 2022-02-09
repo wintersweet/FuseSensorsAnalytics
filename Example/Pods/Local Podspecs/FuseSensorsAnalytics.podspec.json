@@ -51,7 +51,8 @@
         "FuseSensorsAnalytics/Core/SASecurityPolicy.h",
         "FuseSensorsAnalytics/Core/SAConfigOptions.h",
         "FuseSensorsAnalytics/Core/Tracker/SAUplaodManager.h",
-        "FuseSensorsAnalytics/Core/SAConstants.h"
+        "FuseSensorsAnalytics/Core/SAConstants.h",
+        "FuseSensorsAnalytics/Core/SAModuleProtocol.h"
       ],
       "ios": {
         "resources": "FuseSensorsAnalytics/SensorsAnalyticsSDK.bundle",
