@@ -16,6 +16,7 @@
 #import "SAAppExtensionDataManager.h"
 #import "SASecurityPolicy.h"
 #import "SAConfigOptions.h"
+#import "SAUplaodManager.h"
 #import "SAConstants.h"
 #import "SensorsAnalyticsSDK+JavaScriptBridge.h"
 #import "SensorsAnalyticsSDK+SAChannelMatch.h"
@@ -25,6 +26,7 @@
 #import "SAConfigOptions+RemoteConfig.h"
 #import "SAEncryptProtocol.h"
 #import "SASecretKey.h"
+#import "SADeeplinkManager.h"
 #import "SensorsAnalyticsSDK+Visualized.h"
 
 FOUNDATION_EXPORT double FuseSensorsAnalyticsVersionNumber;

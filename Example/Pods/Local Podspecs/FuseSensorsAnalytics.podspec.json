@@ -1,6 +1,6 @@
 {
   "name": "FuseSensorsAnalytics",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "summary": "A short description of FuseSensorsAnalytics.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/wintersweet/FuseSensorsAnalytics",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/wintersweet/FuseSensorsAnalytics.git",
-    "tag": "1.0.6"
+    "tag": "1.0.7"
   },
   "platforms": {
     "ios": "9.0"
@@ -50,6 +50,7 @@
         "FuseSensorsAnalytics/Core/SAAppExtensionDataManager.h",
         "FuseSensorsAnalytics/Core/SASecurityPolicy.h",
         "FuseSensorsAnalytics/Core/SAConfigOptions.h",
+        "FuseSensorsAnalytics/Core/Tracker/SAUplaodManager.h",
         "FuseSensorsAnalytics/Core/SAConstants.h"
       ],
       "ios": {
@@ -89,7 +90,8 @@
         "public_header_files": [
           "FuseSensorsAnalytics/{Encrypt,RemoteConfig,ChannelMatch,Deeplink,DebugMode}/{SAConfigOptions,SensorsAnalyticsSDK}+*.h",
           "FuseSensorsAnalytics/Encrypt/SAEncryptProtocol.h",
-          "FuseSensorsAnalytics/Encrypt/SASecretKey.h"
+          "FuseSensorsAnalytics/Encrypt/SASecretKey.h",
+          "FuseSensorsAnalytics/Deeplink/SADeeplinkManager.h"
         ]
       }
     },

@@ -124,7 +124,6 @@
 		4C09BA676E50C4A8AA92EFC726B50ECA /* UIViewController+SAElementPath.h in Headers */ = {isa = PBXBuildFile; fileRef = 227F9C9890162358DCC541A2F4BD5261 /* UIViewController+SAElementPath.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		4C3A84F1DD203A9814BA2407A59490EC /* SASecretKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 45F82C4C7869089789FCA5CE9E02EEF8 /* SASecretKey.m */; };
 		4C66C40EBB699935EE3B25EEBBF50B91 /* mz.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D583CE9E3B21E1A0F3A0C346C192C2F /* mz.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		4CA1B69E40FF15E2AC11F407558F6E33 /* SADeeplinkManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F438BC45AE1A6D7A1114D44E00B2A04 /* SADeeplinkManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		4D853A77C3F20C9508D48884BF7045AC /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 72E4F82712FC22D438348C36244FF2DD /* AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4D959262EC69D679B325651B24046023 /* SAFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = D042F87C809A5AA9DD9B2087AD704D95 /* SAFileLogger.m */; };
 		4E94636144B9CB3FF73F0C304DE5774C /* SARemoteConfigCheckOperator.h in Headers */ = {isa = PBXBuildFile; fileRef = CAB6D5C5451E6CFDE7C941FB64FEAAF3 /* SARemoteConfigCheckOperator.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -149,7 +148,6 @@
 		58436CF7263949F91695DDDEBEB25FDA /* SAAbstractLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7DF8A66BAEC8BCA214370C68D74DF9 /* SAAbstractLogger.m */; };
 		58B1E2282B11E7200830DE60CFDC7696 /* WKWebView+SABridge.m in Sources */ = {isa = PBXBuildFile; fileRef = E6F909A475B9FD5F19AB145CDF79FB60 /* WKWebView+SABridge.m */; };
 		59291BCA80A8B0E161389B78FB8174E5 /* NSString+HashCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 2452FCCD6F2D299AAAEECAE2EDB0E664 /* NSString+HashCode.m */; };
-		5986D714FE30D915004B7A1267A58CBB /* SAUplaodManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 4338B68B4511D39EA3AC6E0A4E3F4652 /* SAUplaodManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		59E072386BFA49F98D72E530BCA08304 /* SAObjectSerializerContext.h in Headers */ = {isa = PBXBuildFile; fileRef = C37A020E072ECB6B0A06899909BA1F52 /* SAObjectSerializerContext.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		59EB7045482835754EA11F7C1A5E01FE /* mz_strm_os_posix.c in Sources */ = {isa = PBXBuildFile; fileRef = C8FD7B62466FE6BFB712141FE7A57B3F /* mz_strm_os_posix.c */; };
 		5A126523753C6072A8D4E4C2162523E3 /* SARemoteConfigCheckOperator.m in Sources */ = {isa = PBXBuildFile; fileRef = 287904A9A54633B153C6EEC2FF5F0684 /* SARemoteConfigCheckOperator.m */; };
@@ -180,6 +178,7 @@
 		687E37DE29E99184A49DBDECD0D9B51B /* SAVisualizedSnapshotMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = AB9FD44C64F3CFAEA5F98BAB6EF05DEF /* SAVisualizedSnapshotMessage.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		6888E4F85D30C891D953E957A2B5702C /* SAGeneralGestureViewProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = C242F9887C4372CD840112AA45DA7DB8 /* SAGeneralGestureViewProcessor.m */; };
 		6912BF39AF2FC5F40A94BA5EC4AA9D2C /* SAProfileEventObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BD30AB679DA2AC39CC493F6B7A5BC5E /* SAProfileEventObject.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6963C8B54509D84250778F50F5C4FF7E /* SADeeplinkManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F438BC45AE1A6D7A1114D44E00B2A04 /* SADeeplinkManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		696FECE71B5BB73E2156BF3B136E1029 /* SAWeakPropertyContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = B409E9A571898B6DF6F4F0465DC223C5 /* SAWeakPropertyContainer.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		6A99A73B24CD3624816417071ACFFE03 /* XMEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 20AB595E456670EB68A6C0AFECE959DB /* XMEngine.m */; };
 		6AC546B81EAA2278D20702175CD40EB7 /* UIView+AutoTrack.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FC1566C825B3DEBEEB0A4205A078DE5 /* UIView+AutoTrack.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -305,6 +304,7 @@
 		C4E0858B55675C52084F5ADA2A50AB60 /* SAAlgorithmProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 39CD1B3B8A7EA35A6E6C95EB39CEFF9A /* SAAlgorithmProtocol.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		C4F57FF39540C38B9E926C062CDCEB3C /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 974B7E25399F1368B9360B5FE5FD295D /* UIButton+AFNetworking.m */; };
 		C5D6B392E7D481CFCA929B37187FFBB2 /* SADebugModeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F7DD81A05605F19EFFAD469EB8ECEE69 /* SADebugModeManager.m */; };
+		C62D42FD7682779861193AFCCFEA356D /* SAUplaodManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 4338B68B4511D39EA3AC6E0A4E3F4652 /* SAUplaodManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C630BDB39DBAE27E12821D84AABEC4DE /* SAEnumDescription.m in Sources */ = {isa = PBXBuildFile; fileRef = CAA9B1434EE155AF707CE67239280981 /* SAEnumDescription.m */; };
 		C64E9AABB2736DB0507C115E198B12A1 /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 97A9F0C1125896BB18345E2E59F6B1DC /* UIRefreshControl+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C6B0AF830AA232BA5EB3CF7A841C4950 /* mz_os.h in Headers */ = {isa = PBXBuildFile; fileRef = 95459705DCEB7124109147CAF3CBC1F3 /* mz_os.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -1910,7 +1910,7 @@
 				7EFFB4D9E4311422157DC433E932E268 /* SADatabase.h in Headers */,
 				087AC4F0E544BE36AEF5134A4696E869 /* SADateFormatter.h in Headers */,
 				A9A6872B079195DAD3A0792DC8405958 /* SADebugModeManager.h in Headers */,
-				4CA1B69E40FF15E2AC11F407558F6E33 /* SADeeplinkManager.h in Headers */,
+				6963C8B54509D84250778F50F5C4FF7E /* SADeeplinkManager.h in Headers */,
 				6144029EC5942B4C730098F1714907BC /* SADelegateProxy.h in Headers */,
 				480570DE7055D0B3870231B65E64C2B7 /* SAECCEncryptor.h in Headers */,
 				7B126208610F61E8F3362139A166D47B /* SAECCPluginEncryptor.h in Headers */,
@@ -1976,7 +1976,7 @@
 				F8D61E6D305BA8DB7145972AF6CA8E46 /* SATrackEventObject.h in Headers */,
 				F7BF4982EF2E9903A7482269830B0002 /* SATrackTimer.h in Headers */,
 				FCBAF5B7471D1413CC1739668B25CFEB /* SATypeDescription.h in Headers */,
-				5986D714FE30D915004B7A1267A58CBB /* SAUplaodManager.h in Headers */,
+				C62D42FD7682779861193AFCCFEA356D /* SAUplaodManager.h in Headers */,
 				FDDB73CAA4B10F5AA1D8E648EB5DF482 /* SAURLUtils.h in Headers */,
 				DA36E11FF3ED651972E0484E6D1833D6 /* SAValidator.h in Headers */,
 				1A3A3D26086EB892E2EF20746FD549F5 /* SAValueTransformers.h in Headers */,

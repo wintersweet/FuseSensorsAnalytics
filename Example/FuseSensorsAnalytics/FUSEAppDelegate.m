@@ -7,6 +7,10 @@
 //
 
 #import "FUSEAppDelegate.h"
+#import <FuseSensorsAnalytics/SensorsAnalyticsSDK.h>
+#import <FuseSensorsAnalytics/SensorsAnalyticsSDK+Deeplink.h>
+#import <FuseSensorsAnalytics/SADeeplinkManager.h>
+#import <FuseSensorsAnalytics/SAUplaodManager.h>
 
 @implementation FUSEAppDelegate
 
